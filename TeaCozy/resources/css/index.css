@@ -1,0 +1,142 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body
+{
+	font-family: Helvetica, sans-serif;
+	font-size: 22px;
+	color: seashell;
+	text-align: center;
+	background: black;
+}
+
+#header{
+	background-color: black;
+	height: 69px;
+	width:100%;
+	display: flex;
+	position: fixed;
+	align-items: center;
+	justify-content: space-between;
+	border-bottom: 1px solid seashell;
+	top: 0;
+	left:0;
+	z-index: 20;
+}
+
+#logo img{
+	height: 50px;
+	margin-left: 10px;
+	
+}
+
+#header li{
+	display: inline;
+	margin: 0px 15px;
+}
+
+#header a{
+	color: seashell;
+}
+#container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#top{
+	display: flex;
+	margin-top: 69px;
+	position: relative;
+	background-image: url(../media/img-mission-background.jpg);
+	height: 700px;
+	width: 1200px;
+	align-items: center;
+	
+	
+}
+
+#inside_top{
+	display: inline-flex;
+	flex-direction: column;
+	width: 1200px;
+	background-color: black;
+}
+
+h2{
+	font-size: 1.6em;
+	margin-bottom: -15px
+}
+
+.row img{
+	display: flex;
+	height: 200px;
+	width: 300px;
+	align-items: center;
+	margin: 25px;
+}
+
+#center{
+	width: 1000px;
+	margin: 0 auto;
+	flex-wrap: wrap;
+	
+}
+.row{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	
+}
+
+.row2{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+}
+
+.row2 img{
+	display: flex;
+	height: 200px;
+	width: 300px;
+	align-items: center;
+	margin: 25px;
+}
+
+#bottom_content_heading{
+	display: flex;
+	margin-bottom: 15px;
+}
+
+#bottom_content{
+	width: 1200px;
+	height: 500px;
+	margin: 0 auto;
+	background-image: url(../media/img-locations-background.jpg);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	flex-flow: 2 3 wrap-reverse;
+
+}
+
+#bottom_content_box{
+	height: 250px;
+	width: 980px;
+	display: flex;
+	margin: 0 auto;
+	justify-content: space-around;
+}
+
+.bottom_square{
+	width:300px;
+	height:300px;
+	background-color:black;
+	opacity: .9;	
+}
+
+
+#footer_bottom {
+	text-align: left;
+	margin-left: 20px;
+}
